@@ -1,1 +1,1 @@
-# samp-node-ts boilerplate
+# Samp Node TypeScript Boilerplate
