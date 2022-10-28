@@ -1,6 +1,10 @@
 /.vscode
 /node_modules
 /dist
+/pawno/*
+!/pawno/include
+/pawno/include/*.inc
+!/pawno/include/samp-node.inc
 *.amx
 *.log
 *.txt
