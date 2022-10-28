@@ -1,0 +1,35 @@
+{
+  "name": "gm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "watch": "rollup -w -c ./rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.0.2",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-replace": "^4.0.0",
+    "builtin-modules": "^3.3.0",
+    "deepmerge": "^4.2.2",
+    "fs-jetpack": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-tsconfig-paths": "^1.4.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/mysql": "^2.15.21",
+    "colorette": "^2.0.19",
+    "mysql": "^2.18.1",
+    "samp-node-lib": "^1.1.5"
+  }
+}

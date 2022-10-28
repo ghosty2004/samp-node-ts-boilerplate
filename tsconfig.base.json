@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                          
+    "module": "esnext",
+    "moduleResolution": "node",       
+    "lib": ["es6", "esnext", "DOM"],              
+    "noEmitOnError": true,                          
+    "strict": true,  
+    "esModuleInterop": false,
+    "rootDir": "."
+  },
+  "include": ["./src/**/*.ts"]
+}

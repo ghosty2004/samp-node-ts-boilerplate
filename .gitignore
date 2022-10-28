@@ -1,0 +1,6 @@
+/.vscode
+/node_modules
+/dist
+*.amx
+*.log
+server_log.txt
