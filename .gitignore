@@ -3,4 +3,4 @@
 /dist
 *.amx
 *.log
-server_log.txt
+*.txt
